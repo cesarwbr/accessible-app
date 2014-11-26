@@ -1,0 +1,123 @@
+body {
+  font-family: sans-serif;
+  height:100%;
+  background: #f44344;
+}
+core-header-panel {
+  background: white;
+}
+core-toolbar {
+  background-color: #f44343;
+  color: white;
+}
+p {
+  margin: 20px;
+  padding: 80px 20px;
+  border-radius: 20px;
+  background-color: #eee;
+}
+
+paper-button.colored {
+  color: #4285f4;
+}
+
+paper-button[raised].colored {
+  background: #4285f4;
+  color: #fff;
+}
+
+#core-header {
+	display: none;
+}
+
+.main-page {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.main-page > div {
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+paper-button[raised].btn-access {
+  background: #4285f4;
+  color: #fff;
+}
+
+.button-container {
+	height: 340px;
+}
+
+.yesno-button {
+	margin-top: 20px;
+	width: 48%;
+	height: 90%;
+}
+
+.yesno-button > span {
+	font-size: 150px;
+}
+
+paper-button[raised].yes-btn {
+	background: #1B5E20;
+}
+
+paper-button[raised].no-btn {
+	background: #D50000;
+}
+
+@media all and (min-height: 400px) {
+	.button-container {
+		height: 340px;
+	}
+
+	.yesno-button > span {
+		margin-top: 60px;
+	}
+}
+
+@media all and (max-height: 320px) {
+	.button-container {
+		height: 220px;
+	}
+}
+
+
+
+@media all and (max-width: 575px) {
+	.yesno-button {
+		width: 47%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.yesno-button > span {
+		font-size: 92px;
+	}
+
+	.yesno-button > span {
+		margin-top: 90px;
+	}
+}
+
+@media all and (max-width: 475px) {
+	.yesno-button {
+		width: 95%;
+	}
+}
+
+@media all and (max-width: 475px) and (max-height: 480px) {
+	.button-container {
+		height: 200px;
+	}
+}
+
+@media all and (orientation: portrait) {
+	.yesno-button {
+		width: 95%;
+	}
+}
